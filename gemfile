@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+gem "jekyll-sass-converter", "~> 2.0"
+gem "webrick", "~> 1.7"  # needed for local serve sometimes
+
+# Hydejack dependencies
+gem "jekyll-include-cache"
+gem "jekyll-paginate"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+
+# Add other Hydejack plugins here if missing
