@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3.3"
+
+# Hydejack & plugin dependencies
+gem "jekyll-include-cache"
+gem "jekyll-paginate"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-archives"
+gem "jekyll-redirect-from"
+
+# Needed for local serving sometimes
+gem "webrick", "~> 1.8"
